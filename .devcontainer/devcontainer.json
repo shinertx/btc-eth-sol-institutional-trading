@@ -1,0 +1,13 @@
+{
+  "name": "BTC/ETH/SOL Trading",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  },
+  "postCreateCommand": "pip install --upgrade pip && pip install -r /workspace/infra/requirements.txt",
+  "forwardPorts": [8888],
+  "extensions": [
+    "ms-python.python",
+    "ms-azuretools.vscode-docker"
+  ]
+}

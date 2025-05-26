@@ -1,0 +1,10 @@
+ccxt
+pandas
+numpy
+ta-lib
+scipy
+pytest
+black
+flake8
+mypy
+bandit

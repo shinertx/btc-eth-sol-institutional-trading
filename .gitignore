@@ -1,0 +1,11 @@
+__pycache__/
+.env
+*.pyc
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+*.sqlite3
+infra/__pycache__/
+infra/*.pyc
+/tests/__pycache__/
+/batches/__pycache__/
